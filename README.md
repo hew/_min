@@ -2,7 +2,7 @@
 
  A rapid styling system built on `Hyperapp`.
 
-# Project Goals
+## Project Goals
 
 
 - ✍ Write component styles inline (with shorthand properties) ([API](http://github.com/jxnblk/understyle))
@@ -77,6 +77,11 @@ I see this type of approach being used more for prototyping, designing, and smal
 
 Figure out a way to get all the styles extracted into a separate stylesheet, so
 as to eliminate any performance concerns, and Make Alex Happy™.
+
+
+## Credits/Inspiration
+
+A lot of this code directly from [@jxnblk](http://github.com/jxnblk), and heavily influenced by [basscss](http://basscss.com/). 
 
 
 --- 
