@@ -1,15 +1,14 @@
 # _min
 
-`_min` is fast-paced styling system built on `Hyperapp`.
-
+ A rapid styling system built on `Hyperapp`.
 
 # Project Goals
 
-- [x] Write component styles inline (with shorthand properties) 
-- [x] Compile those styles to actual classnames
-- [ ] All extracted out to a separate stylesheet
-- [x] Use a super lightweight non-React microframework.
 
+- ✍ Write component styles inline (with shorthand properties) ([API](http://github.com/jxnblk/understyle.))
+- ⎀ Convert those styles to actual classnames ([API](http://github.com/jxnblk/cxs))
+- ﹖ All extracted out to a separate stylesheet (😅)
+- ⌁ Use a super lightweight non-React microframework. ([API](http://github.com/hyperapp/hyperapp)))
 
 ## The Basic Idea
 
@@ -60,30 +59,26 @@ export const classNameOutput = 'lite' // lite, atomic, monolithic
 
 ## FAQs
 
-**> Can this handle responsive styles?**
+### Can this handle responsive styles?
 
-``Yes. Even shorthands.`` [See API](https://github.com/jxnblk/understyle#responsive-styles)
+Yes. Even shorthands. [See API](https://github.com/jxnblk/understyle#responsive-styles)
 
-**> Does this work with React?**
+### Does this work with `React`?
 
-``Not out of the box, but it could be adapted pretty easily.``
+Not out of the box, but it could be adapted pretty easily.
 
-**> Performance Concerns
-``Under the hood _min uses CXS, which [holds up well in tests.](https://engineering.hellofresh.com/the-css-in-js-battle-89c34a7a83ea) ``. Regardless, 
+### Performance Concerns
+
+Under the hood `_min` uses `cxs`, which [holds up well in tests](https://engineering.hellofresh.com/the-css-in-js-battle-89c34a7a83ea). Regardless, 
 I see this type of approach being used more for prototyping, designing, and small websites.
  
 
 ## Current/Future Goals
 
 Figure out a way to get all the styles extracted into a separate stylesheet, so
-as to eliminate any performance concerns.
+as to eliminate any performance concerns, and Make Alex Happy™.
 
 
 --- 
-
-Under the hood: 
-  * http://github.com/jxnblk/cxs 
-  * http://github.com/jxnblk/understyle.
-
 
 MIT License
