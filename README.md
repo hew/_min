@@ -8,7 +8,7 @@
 - ✍ Write component styles inline (with shorthand properties) ([API](http://github.com/jxnblk/understyle.))
 - ⎀ Convert those styles to actual classnames ([API](http://github.com/jxnblk/cxs))
 - ﹖ All extracted out to a separate stylesheet (😅)
-- ⌁ Use a super lightweight non-React microframework. ([API](http://github.com/hyperapp/hyperapp)))
+- ⌁ Use a super lightweight non-React microframework. ([API](http://github.com/hyperapp/hyperapp))
 
 ## The Basic Idea
 
