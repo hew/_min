@@ -9,7 +9,7 @@ export const colors = flattenColors(palx(blue))
 colors.white = '#fff'
 
 // Set your classname output here.
-export const classNameOutput = 'monolithic' // lite, atomic, monolithic
+export const classNameOutput = 'lite' // lite, atomic, monolithic
 
 export const breakpoints = [
   '(min-width:40em)',
