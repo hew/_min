@@ -18,7 +18,7 @@ Build layouts like this.
 <Box 
   flex 
   px2 py2 
-  items-center 
+  itemsCenter 
   black bgBlue
   >
   Hummus
